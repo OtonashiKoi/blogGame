@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アニメゲームインターフェース</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <div class="player-info">
+                <img src="https://via.placeholder.com/50x50.png?text=Player" alt="プレイヤーアイコン" class="player-icon">
+                <div class="player-details">
+                    <span class="player-name">音無恋</span>
+                    <div class="rank-bar">
+                        <span>Rank.2</span>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 41%;"></div>
+                        </div>
+                        <span>61/147</span>
+                    </div>
+                </div>
+            </div>
+            <div class="resources">
+                <div class="resource"><img src="https://via.placeholder.com/20x20.png?text=E" alt="エネルギー"> 43/51 <span class="add">+</span></div>
+                <div class="resource"><img src="https://via.placeholder.com/20x20.png?text=C" alt="コイン"> 519 <span class="add">+</span></div>
+                <div class="resource"><img src="https://via.placeholder.com/20x20.png?text=G" alt="ジェム"> 28 <span class="add">+</span></div>
+            </div>
+        </header>
+        
+        <main>
+            <nav class="side-menu">
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=音" alt="音声"></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=画" alt="画像"></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=メ" alt="メール"> <span class="notification">1</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=任" alt="任務"> <span class="notification">1</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=バ" alt="バッグ"></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=交" alt="交換所"></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=イ" alt="イベント"></button>
+            </nav>
+
+            <div class="character-display">
+                <img src="data/Component 1.png" alt="キャラクター" class="character-image">
+                <div class="character-power">
+                    <span class="power-label">聲望力</span>
+                    <span class="power-value">2,908</span>
+                </div>
+            </div>
+            
+            <div class="main-menu">
+                <button class="hex-button large"><img src="https://via.placeholder.com/50x50.png?text=冒" alt="冒険"> <span>冒険</span></button>
+                <button class="hex-button"><img src="https://via.placeholder.com/40x40.png?text=探" alt="探査"> <span>探査</span></button>
+                <button class="hex-button"><img src="https://via.placeholder.com/40x40.png?text=闘" alt="闘技場"> <span>PK場</span></button>
+                <button class="hex-button"><img src="https://via.placeholder.com/40x40.png?text=ダ" alt="ダンジョン"> <span>地下城</span></button>
+            </div>
+        </main>
+        
+        <footer>
+            <nav class="bottom-menu">
+                <button class="menu-item active"><img src="https://via.placeholder.com/30x30.png?text=ホ" alt="ホーム"> <span>Home</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=部" alt="部隊"> <span>隊伍</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=マ" alt="マイルーム"> <span>要用什麼呢</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=ガ" alt="ガチャ"> <span>抽角色</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=ギ" alt="ギルド"> <span>公會大廳</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=シ" alt="ショップ"> <span>商店</span></button>
+                <button class="menu-item"><img src="https://via.placeholder.com/30x30.png?text=メ" alt="メニュー"> <span>MENU</span></button>
+            </nav>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
